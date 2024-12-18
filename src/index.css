@@ -8,3 +8,12 @@
 body{
   background-color: #111;
 }
+
+#tasklist {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+#tasklist::-webkit-scrollbar {
+  display: none; 
+}
